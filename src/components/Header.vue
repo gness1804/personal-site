@@ -8,7 +8,7 @@
         li
           a(href="") Bar
         li
-          a(href="") Baz
+          a(href="https://medium.com/@gness1804/" target="_blank") Medium
 </template>
 
 <script>
