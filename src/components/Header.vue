@@ -11,8 +11,8 @@ export default {
 
 
 <style scoped>
-  .header {
-    color: 'rgb(2.6%, 0%, 100%)',
+  h1 {
+    color: blue;
   }
 </style>
 
