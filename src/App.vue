@@ -1,16 +1,19 @@
-<template>
-  <div id="app">
-    <Landing msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  #app
+    Header
+    Landing
 </template>
 
+
 <script>
+import Header from './components/Header.vue'
 import Landing from './components/Landing.vue'
 
 export default {
   name: 'app',
   components: {
-    Landing
+    Landing,
+    Header,
   }
 }
 </script>

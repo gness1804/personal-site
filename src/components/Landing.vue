@@ -1,5 +1,5 @@
 <template lang="pug">
-  h1 Graham Nessler
+  p Web Developer, Author, and Cat Lover
 </template>
 
 
