@@ -52,7 +52,7 @@ export default {
 
 <style scoped>
   .header {
-    margin: 0 10vw;
+    margin: 0 20vw;
   }
 
   .header h1 {
