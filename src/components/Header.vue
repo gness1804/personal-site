@@ -14,6 +14,10 @@
           a(href="") Foo
         li
           a(href="") Bar
+        li
+          a(href="") Baz
+        li
+          a(href="") Boo
 </template>
 
 <script>
@@ -52,6 +56,17 @@ export default {
 
   .header h1 {
     font-family: 'Helvetica', sans-serif;
+  }
+
+  .header-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .header-links li {
+    display: inline;
   }
 
   .top-part {
