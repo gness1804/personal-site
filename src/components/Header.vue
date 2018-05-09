@@ -2,8 +2,9 @@
   .header
     .top-part
       h1 {{name}}
-      .social-icons
+      .social-icons-container
         img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img")
+        img(src="../assets/github.png" alt="Github logo." v-on:click="openGithub" class="social-icon clickable-img")
     nav
       ul(class="header-links")
         li
@@ -25,6 +26,9 @@ export default {
   methods: {
     openEmail: function () {
       window.open('mailto:gness1804@gmail.com');
+    },
+    openGithub: function () {
+      window.open('https://github.com/gness1804/');
     }
   },
 }
@@ -47,7 +51,13 @@ export default {
     justify-content: space-between;
   }
 
-  .social-icons {
+  .social-icons-container {
+
+  }
+
+  .social-icon {
+    height: 20px;
+    width: 20px;
   }
 </style>
 
