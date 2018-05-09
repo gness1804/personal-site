@@ -5,6 +5,7 @@
       .social-icons-container
         img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img")
         img(src="../assets/github.png" alt="Github logo." v-on:click="openGithub" class="social-icon clickable-img")
+        img(src="../assets/twitter.png" alt="Twitter logo." v-on:click="openTwitter" class="social-icon clickable-img")
     nav
       ul(class="header-links")
         li
@@ -29,6 +30,9 @@ export default {
     },
     openGithub: function () {
       window.open('https://github.com/gness1804/');
+    },
+    openTwitter: function () {
+       window.open('https://twitter.com/gness1804/');
     }
   },
 }
