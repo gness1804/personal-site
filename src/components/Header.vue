@@ -25,7 +25,7 @@ export default {
   name: 'Header',
   data() {
     return {
-      name: 'GRAHAM NESSLER',
+      name: 'Graham Nessler',
     };
   },
   methods: {
@@ -55,18 +55,32 @@ export default {
   }
 
   .header h1 {
+    color: #8B8D90;
     font-family: 'Helvetica', sans-serif;
+    text-transform: uppercase;
   }
 
   .header-links {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     list-style-type: none;
     padding-left: 0;
+    width: 70%;
   }
 
   .header-links li {
     display: inline;
+  }
+
+  .header-links li a {
+    color: #8B8D90;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .header-links li a:hover {
+    color: rgba(0,163,224,1);
   }
 
   .top-part {
