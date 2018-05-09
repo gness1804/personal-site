@@ -1,5 +1,5 @@
 <template lang="pug">
-  .header
+  #header
     .top-part
       a(href="/")
         h1 {{name}}
@@ -50,8 +50,8 @@ export default {
 </script>
 
 
-<style scoped>
-  .header {
+<style>
+  #header {
     margin: 0 20vw;
   }
 
