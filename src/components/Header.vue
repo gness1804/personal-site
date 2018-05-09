@@ -1,6 +1,6 @@
 <template lang="pug">
   .header
-    h1 Graham Nessler
+    h1 {{name}}
     nav
       ul(class="header-links")
         li
@@ -14,13 +14,18 @@
 <script>
 export default {
   name: 'Header',
+  data() {
+    return {
+      name: 'Graham Nessler',
+    };
+  },
 }
 </script>
 
 
 <style scoped>
-  h1 {
-    color: blue;
+  .header {
+    margin: 0 10vw;
   }
 </style>
 
