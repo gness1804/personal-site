@@ -1,6 +1,6 @@
 <template lang="pug">
   #stickyHeader.hidden
-    h1 I am the Sticky Header.
+    h1 GTN
 </template>
 
 <script>
@@ -11,6 +11,9 @@ export default {
 
 <style scoped>
   #stickyHeader {
+    background-color: #fff;
+    border-bottom: 1px solid #d1ccbd;
+    margin: 0 20vw;
     position: sticky;
     top: -1px;
   }
