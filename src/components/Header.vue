@@ -48,35 +48,7 @@ export default {
 
 
 <style lang="scss">
-  #header {
-    margin: 0 20vw;
-  }
 
-  .header h1 {
-    color: #8B8D90;
-    text-transform: uppercase;
-  }
-
-  .header h1:hover {
-    color: rgba(0,163,224,1);
-  }
-
-  .top-part {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .social-icons-container {
-    display: flex;
-    margin: 10px 10px 0 0;
-  }
-
-  .social-icon {
-    height: 20px;
-    margin-right: 5px;
-    width: 20px;
-  }
 </style>
 
 

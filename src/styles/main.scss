@@ -1,0 +1,23 @@
+@import 'variables.scss';
+@import 'header.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clickable-img {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}
