@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Header Links',
+  name: 'HeaderLinks',
 }
 </script>
 
@@ -37,6 +37,11 @@ export default {
 
   .header-links li a:hover {
     color: rgba(0,163,224,1);
+  }
+
+  #stickyHeader .header-links {
+    padding: 0 5vw;
+    width: 100%;
   }
 </style>
 
