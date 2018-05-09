@@ -47,7 +47,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="scss">
   #header {
     margin: 0 20vw;
   }
