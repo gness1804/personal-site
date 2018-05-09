@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Landing from './components/Landing.vue'
+import Header from './Header.vue'
+import Landing from './Landing.vue'
 
 export default {
   name: 'app',
