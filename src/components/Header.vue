@@ -3,7 +3,7 @@
     .top-part
       h1 {{name}}
       .social-icons
-        img(src="../assets/at.png" alt="Email me.")
+        img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img")
     nav
       ul(class="header-links")
         li
@@ -21,6 +21,11 @@ export default {
     return {
       name: 'GRAHAM NESSLER',
     };
+  },
+  methods: {
+    openEmail: function () {
+      window.open('mailto:gness1804@gmail.com');
+    }
   },
 }
 </script>
