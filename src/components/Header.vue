@@ -4,11 +4,11 @@
       a(href="/")
         h1 {{name}}
       .social-icons-container
-        img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img")
-        img(src="../assets/github.png" alt="Github logo." v-on:click="openGithub" class="social-icon clickable-img")
-        img(src="../assets/twitter.png" alt="Twitter logo." v-on:click="openTwitter" class="social-icon clickable-img")
-        img(src="../assets/linkedin.png" alt="LinkedIn logo." v-on:click="openLinkedIn" class="social-icon clickable-img")
-        img(src="../assets/medium.png" alt="Medium logo." v-on:click="openMedium" class="social-icon clickable-img")
+        img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img" title="Email")
+        img(src="../assets/github.png" alt="Github logo." v-on:click="openGithub" class="social-icon clickable-img" title="Github")
+        img(src="../assets/twitter.png" alt="Twitter logo." v-on:click="openTwitter" class="social-icon clickable-img" title="Twitter")
+        img(src="../assets/linkedin.png" alt="LinkedIn logo." v-on:click="openLinkedIn" class="social-icon clickable-img" title="LinkedIn")
+        img(src="../assets/medium.png" alt="Medium logo." v-on:click="openMedium" class="social-icon clickable-img" title="Medium")
     nav
       ul(class="header-links")
         li
