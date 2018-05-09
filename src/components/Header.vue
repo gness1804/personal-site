@@ -1,29 +1,26 @@
 <template lang="pug">
-  .header
+  #header
     .top-part
       a(href="/")
         h1 {{name}}
       .social-icons-container
-        img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img")
-        img(src="../assets/github.png" alt="Github logo." v-on:click="openGithub" class="social-icon clickable-img")
-        img(src="../assets/twitter.png" alt="Twitter logo." v-on:click="openTwitter" class="social-icon clickable-img")
-        img(src="../assets/linkedin.png" alt="LinkedIn logo." v-on:click="openLinkedIn" class="social-icon clickable-img")
-        img(src="../assets/medium.png" alt="Medium logo." v-on:click="openMedium" class="social-icon clickable-img")
+        img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img" title="Email")
+        img(src="../assets/github.png" alt="Github logo." v-on:click="openGithub" class="social-icon clickable-img" title="Github")
+        img(src="../assets/twitter.png" alt="Twitter logo." v-on:click="openTwitter" class="social-icon clickable-img" title="Twitter")
+        img(src="../assets/linkedin.png" alt="LinkedIn logo." v-on:click="openLinkedIn" class="social-icon clickable-img" title="LinkedIn")
+        img(src="../assets/medium.png" alt="Medium logo." v-on:click="openMedium" class="social-icon clickable-img" title="Medium")
     nav
-      ul(class="header-links")
-        li
-          a(href="") Foo
-        li
-          a(href="") Bar
-        li
-          a(href="") Baz
-        li
-          a(href="") Boo
+      HeaderLinks
 </template>
 
 <script>
+import HeaderLinks from './HeaderLinks.vue';
+
 export default {
   name: 'Header',
+  components: {
+    HeaderLinks,
+  },
   data() {
     return {
       name: 'Graham Nessler',
@@ -50,8 +47,8 @@ export default {
 </script>
 
 
-<style scoped>
-  .header {
+<style>
+  #header {
     margin: 0 20vw;
   }
 
@@ -61,28 +58,6 @@ export default {
   }
 
   .header h1:hover {
-    color: rgba(0,163,224,1);
-  }
-
-  .header-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    padding-left: 0;
-    width: 70%;
-  }
-
-  .header-links li {
-    display: inline;
-  }
-
-  .header-links li a {
-    color: #8B8D90;
-    text-transform: uppercase;
-  }
-
-  .header-links li a:hover {
     color: rgba(0,163,224,1);
   }
 

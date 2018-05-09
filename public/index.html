@@ -19,6 +19,7 @@
   </body>
   <style>
     * {
+      box-sizing: border-box;
       font-family: 'Open Sans', sans-serif;
     }
 
@@ -29,5 +30,40 @@
     a {
       text-decoration: none;
     }
+
+    .hidden {
+      display: none;
+    }
+
+    .shown {
+      display: block;
+    }
   </style>
+  <script>
+    function showStickyBar() {
+      var elem = document.getElementById('stickyHeader');
+      if (elem.classList.contains('hidden')) {
+        elem.classList.remove('hidden');
+      }
+      elem.classList.add('shown');
+    }
+
+    function hideStickyBar() {
+      var elem = document.getElementById('stickyHeader');
+      if (elem.classList.contains('shown')) {
+        elem.classList.remove('shown');
+      }
+      elem.classList.add('hidden');
+    }
+
+    document.addEventListener('scroll', function () {
+      var headerHght = document.getElementById('header').offsetHeight;
+      var scrolledTo = window.pageYOffset;
+      if (scrolledTo > (headerHght + 200)) {
+        showStickyBar();
+      } else {
+        hideStickyBar();
+      }
+    });
+  </script>
 </html>
