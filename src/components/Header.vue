@@ -1,7 +1,8 @@
 <template lang="pug">
   .header
     .top-part
-      h1 {{name}}
+      a(href="/")
+        h1 {{name}}
       .social-icons-container
         img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img")
         img(src="../assets/github.png" alt="Github logo." v-on:click="openGithub" class="social-icon clickable-img")
@@ -60,6 +61,10 @@ export default {
     text-transform: uppercase;
   }
 
+  .header h1:hover {
+    color: rgba(0,163,224,1);
+  }
+
   .header-links {
     display: flex;
     flex-direction: row;
@@ -75,7 +80,6 @@ export default {
 
   .header-links li a {
     color: #8B8D90;
-    text-decoration: none;
     text-transform: uppercase;
   }
 

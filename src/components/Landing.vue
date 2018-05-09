@@ -1,5 +1,5 @@
 <template lang="pug">
-  p Web Developer, Author, and Cat Lover
+  //- p Web Developer, Author, and Cat Lover
 </template>
 
 
