@@ -14,8 +14,6 @@
           a(href="") Foo
         li
           a(href="") Bar
-        li
-          a(href="https://medium.com/@gness1804/" target="_blank") Medium
 </template>
 
 <script>
@@ -49,7 +47,6 @@ export default {
 
 <style scoped>
   .header {
-    border: 1px solid black;
     margin: 0 10vw;
   }
 
@@ -64,11 +61,13 @@ export default {
   }
 
   .social-icons-container {
-
+    display: flex;
+    margin: 10px 10px 0 0;
   }
 
   .social-icon {
     height: 20px;
+    margin-right: 5px;
     width: 20px;
   }
 </style>
