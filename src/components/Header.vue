@@ -57,7 +57,6 @@ export default {
 
   .header h1 {
     color: #8B8D90;
-    font-family: 'Helvetica', sans-serif;
     text-transform: uppercase;
   }
 
