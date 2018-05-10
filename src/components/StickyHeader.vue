@@ -1,6 +1,7 @@
 <template lang="pug">
   #stickyHeader.hidden
-    h1 GTN
+    a(href="/")
+      h1 GTN
     HeaderLinks
 </template>
 

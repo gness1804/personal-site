@@ -9,6 +9,11 @@
     top: -1px;
 
     h1 {
+      color: $standard-gray;
       margin-bottom: 30px;
+
+      &:hover {
+      color: $standard-blue-hover;
+      }
     }
   }
