@@ -3,15 +3,19 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.clickable-img {
-  cursor: pointer;
+  font-family: $standard-font;
 }
 
 a {
   text-decoration: none;
+}
+
+#app {
+  margin-top: 60px;
+}
+
+.clickable-img {
+  cursor: pointer;
 }
 
 .hidden {
