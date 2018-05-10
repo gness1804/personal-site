@@ -15,6 +15,10 @@
       color: $standard-gray;
       text-transform: uppercase;
 
+       &:visited {
+        color: $medium-gray;
+      }
+
       &:hover {
         color: $standard-blue-hover;
       }
