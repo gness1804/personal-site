@@ -1,0 +1,30 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'header-links.scss';
+@import 'landing.scss';
+@import 'sticky-header.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: $standard-font;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  margin-top: 60px;
+}
+
+.clickable-img {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}

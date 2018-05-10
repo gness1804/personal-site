@@ -1,0 +1,32 @@
+@import 'variables.scss';
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+  width: 70%;
+
+  li {
+    display: inline;
+
+    a {
+      color: $standard-gray;
+      text-transform: uppercase;
+
+       &:visited {
+        color: $medium-gray;
+      }
+
+      &:hover {
+        color: $standard-blue-hover;
+      }
+    }
+  }
+}
+
+#stickyHeader .header-links {
+  padding: 0 5vw;
+  width: 100%;
+}

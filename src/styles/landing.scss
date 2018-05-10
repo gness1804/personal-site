@@ -1,0 +1,12 @@
+@import 'variables.scss';
+
+#landing {
+  margin: 0 $standard-side-margin;
+
+  .splash-image {
+    height: 35rem;
+    margin-top: 60px;
+    width: 100%;
+  }
+}
+

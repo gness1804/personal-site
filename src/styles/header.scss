@@ -1,0 +1,31 @@
+@import 'variables.scss';
+
+#header {
+  margin: 0 $standard-side-margin;
+
+  h1 {
+    color: $standard-gray;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $standard-blue-hover;
+    }
+  }
+
+  .top-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .social-icons-container {
+    display: flex;
+    margin: 10px 10px 0 0;
+
+    .social-icon {
+      height: 20px;
+      margin-right: 5px;
+      width: 20px;
+    }
+  }
+}
