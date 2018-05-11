@@ -1,15 +1,16 @@
 @import 'variables.scss';
 
 .header-links {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
   padding-left: 0;
-  width: 70%;
 
   li {
     display: inline;
+    margin-right: 10%;
 
     a {
       color: $standard-gray;

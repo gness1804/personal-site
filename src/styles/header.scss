@@ -5,6 +5,7 @@
 
   h1 {
     color: $standard-gray;
+    margin-right: 60px;
     text-transform: uppercase;
 
     &:hover {
@@ -15,7 +16,8 @@
   .top-part {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
 
   .social-icons-container {
