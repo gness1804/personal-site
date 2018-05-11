@@ -9,12 +9,14 @@
 
 
 <script>
-import Quotes from './InspirationalQuotes.vue';
+// @flow
+
+import Quotes from './InspirationalQuotes'
 
 export default {
   name: 'Landing',
   components: {
-    Quotes,
-  },
+    Quotes
+  }
 }
 </script>

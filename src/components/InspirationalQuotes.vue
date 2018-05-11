@@ -4,24 +4,31 @@
 </template>
 
 <script>
-import quotes from '../helpers/quotes';
+// @flow
+
+import quotes from '../helpers/quotes'
+
+interface DataI {
+  quotes: string,
+  shownQuote: string,
+}
 
 export default {
   name: 'InspirationalQuotes',
-  data() {
+  data (): DataI {
     return {
       quotes,
-      shownQuote: '',
-    };
+      shownQuote: ''
+    }
   },
   methods: {
-    selectQuote: function () {
+    selectQuote: function (): void {
 
-    },
+    }
   },
   mounted: {
 
-  },
+  }
 }
 </script>
 

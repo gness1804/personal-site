@@ -14,35 +14,35 @@
 </template>
 
 <script>
-import HeaderLinks from './HeaderLinks.vue';
+import HeaderLinks from './HeaderLinks.vue'
 
 export default {
   name: 'Header',
   components: {
-    HeaderLinks,
+    HeaderLinks
   },
-  data() {
+  data () {
     return {
-      name: 'Graham Nessler',
-    };
+      name: 'Graham Nessler'
+    }
   },
   methods: {
     openEmail: function () {
-      window.open('mailto:gness1804@gmail.com');
+      window.open('mailto:gness1804@gmail.com')
     },
     openGithub: function () {
-      window.open('https://github.com/gness1804/');
+      window.open('https://github.com/gness1804/')
     },
     openLinkedIn: function () {
-      window.open('https://www.linkedin.com/in/gness1804');
+      window.open('https://www.linkedin.com/in/gness1804')
     },
     openMedium: function () {
-      window.open('https://medium.com/@gness1804/');
+      window.open('https://medium.com/@gness1804/')
     },
     openTwitter: function () {
-       window.open('https://twitter.com/gness1804/');
+      window.open('https://twitter.com/gness1804/')
     }
-  },
+  }
 }
 </script>
 
