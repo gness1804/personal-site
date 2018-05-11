@@ -1,19 +1,19 @@
 const quotes = [
   {
-    body: '',
-    author: '',
+    body: 'Brilliant Saying 1',
+    author: 'Author 1',
   },
   {
-    body: '',
-    author: '',
+    body: 'Brilliant Saying 2',
+    author: 'Author 2',
   },
   {
-    body: '',
-    author: '',
+    body: 'Brilliant Saying 3',
+    author: 'Author 3',
   },
   {
-    body: '',
-    author: '',
+    body: 'Brilliant Saying 4',
+    author: 'Author 4',
   },
 ];
 
