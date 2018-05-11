@@ -37,7 +37,7 @@ export default {
   mounted: function (): void {
     setInterval((): void => {
       this.rotateQuotes();
-    }, 3000);
+    }, 4000);
   }
 }
 </script>
