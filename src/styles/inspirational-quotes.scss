@@ -1,0 +1,18 @@
+@import 'variables.scss';
+
+.quotes-main-container {
+
+  .quote {
+    text-align: center;
+
+    .quote-body {
+      font-family: $cursive-font;
+      font-size: $large-font;
+    }
+
+    .quote-author {
+      font-family: $cursive-font;
+      font-size: $large-font - 10px;
+    }
+  }
+}
