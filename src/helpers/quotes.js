@@ -1,9 +1,5 @@
 // @flow
-
-interface QuotesI {
-  body: string,
-  author: string,
-}
+import { QuotesI } from '../types/interfaces/'
 
 const quotes: QuotesI[] = [
   {

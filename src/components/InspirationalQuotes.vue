@@ -7,15 +7,11 @@
 // @flow
 
 import quotes from '../helpers/quotes'
-
-interface DataI {
-  quotes: string,
-  shownQuote: string,
-}
+import { InspirationalQuotesI } from '../types/interfaces/'
 
 export default {
   name: 'InspirationalQuotes',
-  data (): DataI {
+  data (): InspirationalQuotesI {
     return {
       quotes,
       shownQuote: ''
@@ -23,7 +19,9 @@ export default {
   },
   methods: {
     selectQuote: function (): void {
+      // for (const quote of this.quotes) {
 
+      // }
     }
   },
   mounted: {
