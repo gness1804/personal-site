@@ -1,7 +1,7 @@
 <template lang="pug">
   ul(class="header-links")
         li
-          a(href="") Foo
+          a(href="") Code
         li
           a(href="") Bar
         li
