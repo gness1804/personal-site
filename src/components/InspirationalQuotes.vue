@@ -22,8 +22,8 @@ export default {
       shownQuote: ''
     }
   },
-  mounted: function (): void {
-    setInterval((): void => {
+  methods: {
+    rotateQuotes: function (): void {
       if (this.counter < this.quotes.length - 1) {
         this.counter++;
       } else {
@@ -32,6 +32,11 @@ export default {
         return;
       }
       this.shownQuote = this.quotes[this.counter];
+    }
+  },
+  mounted: function (): void {
+    setInterval((): void => {
+      this.rotateQuotes();
     }, 3000);
   }
 }
