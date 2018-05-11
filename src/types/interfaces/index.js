@@ -3,6 +3,7 @@ export interface HeaderI {
 }
 
 export interface InspirationalQuotesI {
+  counter: number,
   quotes: QuotesI[],
   shownQuote: string,
 }

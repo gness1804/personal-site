@@ -12,6 +12,6 @@
 
   "rules": {
     "flowtype-errors/show-errors": "off",
-    "semi": "error",
+    "semi": "off"
   }
 }
