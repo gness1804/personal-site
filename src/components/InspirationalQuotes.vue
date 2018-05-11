@@ -1,8 +1,9 @@
 <template lang="pug">
   .quotes-main-container
     .quote
-      p(class="quote-body") "{{shownQuote.body || 'Inspiration sometimes comes from where you least expect it.'}}"
-      p(class="quote-author") --{{shownQuote.author || ''}}
+      p(class="quote-body" v-if="shownQuote.body") "{{shownQuote.body}}"
+      p(v-else class="quote-body") Inspiration sometimes comes from where you least expect it.
+      p(class="quote-author" v-if="shownQuote.body") --{{shownQuote.author || ''}}
 
 </template>
 

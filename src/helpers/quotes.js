@@ -3,8 +3,8 @@ import { QuotesI } from '../types/interfaces/'
 
 const quotes: QuotesI[] = [
   {
-    body: 'Brilliant Saying 1',
-    author: 'Author 1'
+    body: 'Everything you want is on the other side of fear.',
+    author: 'Jack Canfield'
   },
   {
     body: 'Brilliant Saying 2',
