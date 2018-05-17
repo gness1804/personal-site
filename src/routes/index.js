@@ -1,20 +1,20 @@
-import VueRouter from 'vue-router'
-import Vue from 'vue'
-import App from '../components/App'
+import VueRouter from 'vue-router';
+import Vue from 'vue';
+import App from '../components/App.vue';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    component: App
-  }
-]
+    component: App,
+  },
+];
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 const router = new VueRouter({
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

@@ -7,11 +7,16 @@
   ],
 
   "extends": [
-    "vue"
+    "vue",
+    "airbnb-base"
   ],
 
   "rules": {
     "flowtype-errors/show-errors": "off",
-    "semi": "off"
+    "no-console": "off",
+    "func-names": "off",
+    "object-shorthand": "off",
+    "global-require":"off",
+    "no-plusplus":"off"
   }
 }
