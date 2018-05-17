@@ -12,8 +12,8 @@
 
 <script>
 export default {
-  name: 'HeaderLinks'
-}
+  name: 'HeaderLinks',
+};
 </script>
 
 

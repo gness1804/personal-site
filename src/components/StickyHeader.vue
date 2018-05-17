@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import HeaderLinks from './HeaderLinks.vue'
+import HeaderLinks from './HeaderLinks.vue';
 
 export default {
   name: 'StickyHeader',
   components: {
-    HeaderLinks
-  }
-}
+    HeaderLinks,
+  },
+};
 </script>
 

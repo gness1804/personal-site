@@ -15,12 +15,12 @@ import { InspirationalQuotesI } from '../types/interfaces/';
 
 export default {
   name: 'InspirationalQuotes',
-  data (): InspirationalQuotesI {
+  data(): InspirationalQuotesI {
     return {
       counter: 0,
       quotes,
-      shownQuote: ''
-    }
+      shownQuote: '',
+    };
   },
   methods: {
     rotateQuotes: function (): void {
@@ -28,17 +28,17 @@ export default {
         this.counter++;
       } else {
         this.counter = 0;
-        this.shownQuote = this.quotes[0];
+        [this.shownQuote] = this.quotes;
         return;
       }
       this.shownQuote = this.quotes[this.counter];
-    }
+    },
   },
   mounted: function (): void {
     setInterval((): void => {
       this.rotateQuotes();
     }, 4000);
-  }
-}
+  },
+};
 </script>
 
