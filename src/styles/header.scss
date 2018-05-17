@@ -31,3 +31,17 @@
     }
   }
 }
+
+@media (max-width: $bp-phone) {
+  #header {
+
+    h1 {
+      margin: 0 0 40px;
+    }
+
+    .top-part {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
