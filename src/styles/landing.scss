@@ -27,3 +27,12 @@
   }
 }
 
+@media (max-width: $bp-phone) {
+  #landing {
+
+    .splash-image {
+      height: 20rem;
+    }
+  }
+}
+
