@@ -1,6 +1,6 @@
 import VueRouter from 'vue-router';
 import Vue from 'vue';
-import App from '../components/App.vue';
+import Landing from '../components/Landing.vue';
 import Code from '../components/Code.vue';
 
 Vue.use(VueRouter);
@@ -8,7 +8,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    component: App,
+    component: Landing,
   },
   {
     path: '/code',
