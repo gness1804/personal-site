@@ -2,18 +2,16 @@
   #app
     Header
     StickyHeader
-    Landing
+    router-view
 </template>
 
 <script>
 import Header from './Header.vue';
-import Landing from './Landing.vue';
 import StickyHeader from './StickyHeader.vue';
 
 export default {
   name: 'app',
   components: {
-    Landing,
     Header,
     StickyHeader,
   },

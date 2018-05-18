@@ -1,13 +1,13 @@
 <template lang="pug">
   ul(class="header-links")
         li
-          a(href="") Code
+          router-link(to="/code") Code
         li
-          a(href="") Bar
+          router-link(to="/writing") Writing
         li
-          a(href="") Baz
+          router-link(to="/people") People
         li
-          a(href="") Boo
+          router-link(to="/") Home
 </template>
 
 <script>
