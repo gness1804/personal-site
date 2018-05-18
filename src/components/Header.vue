@@ -1,7 +1,7 @@
 <template lang="pug">
   #header
     .top-part
-      a(href="/")
+      router-link(to="/")
         h1 {{name}}
       .social-icons-container
         img(src="../assets/at.png" alt="Email me." v-on:click="openEmail" class="social-icon clickable-img" title="Email")

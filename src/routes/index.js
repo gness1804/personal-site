@@ -11,7 +11,7 @@ const routes = [
     component: App,
   },
   {
-    path: '/',
+    path: '/code',
     component: Code,
   },
 ];
