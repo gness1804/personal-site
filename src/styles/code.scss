@@ -1,11 +1,17 @@
 @import 'variables.scss';
+@import 'mixins.scss';
 
   .code {
+    margin: 0 $standard-side-margin;
     text-align: center;
 
   .code-heading {
     font-size: $large-font - 10px;
     font-weight: $thin;
     margin: 60px auto;
+    }
+
+    .big-github-img {
+      @include large-img;
     }
   }

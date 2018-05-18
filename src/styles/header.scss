@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import 'mixins.scss';
 
 #header {
   margin: 0 $standard-side-margin;
@@ -25,9 +26,8 @@
     margin: 10px 10px 0 0;
 
     .social-icon {
-      height: 20px;
+      @include small-img;
       margin-right: 5px;
-      width: 20px;
 
       &:hover {
         opacity: $hover-opacity;
