@@ -31,3 +31,18 @@
   padding: 0 5vw;
   width: 100%;
 }
+
+@media (max-width: $bp-phone) {
+  .header-links {
+    flex-direction: column;
+    margin-bottom: -20px;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  #stickyHeader .header-links {
+    flex-direction: row;
+  }
+}
