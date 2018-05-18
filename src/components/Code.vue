@@ -1,7 +1,6 @@
 <template lang="pug">
   .code
-    h2 Stuff I built
-    p I am the Code page.
+    h2(class="code-heading") Stuff I built
 </template>
 
 <script>
