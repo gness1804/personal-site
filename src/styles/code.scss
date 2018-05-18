@@ -13,5 +13,9 @@
 
     .big-github-img {
       @include large-img;
+
+      &:hover {
+        opacity: $hover-opacity;
+      }
     }
   }
