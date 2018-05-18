@@ -12,3 +12,9 @@ export interface InspirationalQuotesI {
   shownQuote: string,
 }
 
+export interface ProjectI {
+  name: string,
+  description: string,
+  href: string,
+}
+
