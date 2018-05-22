@@ -13,8 +13,13 @@ export interface InspirationalQuotesI {
 }
 
 export interface ProjectI {
+  id: number,
   name: string,
   description: string,
   href: string,
+}
+
+export interface CodeI {
+  projects: ProjectI[],
 }
 

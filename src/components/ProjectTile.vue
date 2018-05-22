@@ -1,6 +1,6 @@
 <template lang="pug">
   .project-tile
-    p I am the project tile.
+    p {{project.name}}
 </template>
 
 <script>
@@ -10,7 +10,7 @@ import { ProjectI } from '../types/interfaces/';
 export default {
   name: 'ProjectTile',
   props: {
-    Project: {
+    project: {
       type: ProjectI,
       required: true,
     },
