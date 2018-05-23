@@ -1,11 +1,15 @@
 <template lang="pug">
   .project-tile
-    p {{project.name}}
+    h4(class="project-tile-name") {{project.name}}
+    p(class="project-tile-description") {{project.description}}
+    a(v-bind:href="url"
+    target="_blank"
+    class="tag-link") Read More >
 </template>
 
 <script>
 // @flow
-import { ProjectI } from '../types/interfaces/';
+import { ProjectI, ProjectTileI } from '../types/interfaces/';
 
 export default {
   name: 'ProjectTile',
@@ -14,6 +18,11 @@ export default {
       type: ProjectI,
       required: true,
     },
+  },
+  data(): ProjectTileI {
+    return {
+      url: this.project.href,
+    };
   },
 };
 </script>

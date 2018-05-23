@@ -30,3 +30,12 @@ a {
 .shown {
   display: block;
 }
+
+.tag-link {
+  font-size: 16px;
+  color: #12A2DD;
+
+  &:hover {
+    color:#00a3e0;
+  }
+}

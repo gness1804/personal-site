@@ -19,13 +19,13 @@ const projects: ProjectI[] = [
     id: 3,
     name: 'Foo Project 3',
     description: 'I am the Foo Project 3',
-    href: '',
+    href: 'https://www.google.com',
   },
   {
     id: 4,
     name: 'Foo Project 4',
     description: 'I am the Foo Project 4',
-    href: '',
+    href: 'https://www.google.com',
   },
 ];
 

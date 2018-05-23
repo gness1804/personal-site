@@ -23,3 +23,7 @@ export interface CodeI {
   projects: ProjectI[],
 }
 
+export interface ProjectTileI {
+  url: string,
+}
+
