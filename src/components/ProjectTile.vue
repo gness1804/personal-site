@@ -1,5 +1,7 @@
 <template lang="pug">
   .project-tile
+    img(class="project-tile-image"
+    v-bind:src="source")
     h4(class="project-tile-name") {{project.name}}
     p(class="project-tile-description") {{project.description}}
     a(v-bind:href="url"
@@ -22,6 +24,7 @@ export default {
   data(): ProjectTileI {
     return {
       url: this.project.href,
+      source: this.project.image,
     };
   },
 };
