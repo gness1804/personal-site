@@ -6,7 +6,7 @@
     p(class="project-tile-description") {{project.description}}
     a(v-bind:href="url"
     target="_blank"
-    class="tag-link") Read More >
+    class="tag-link") View Code >
 </template>
 
 <script>

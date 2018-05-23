@@ -14,12 +14,13 @@
     .big-github-img {
       @include large-img;
 
-    .projects-container {
-      display: flex;
-    }
-
       &:hover {
         opacity: $hover-opacity;
       }
+    }
+
+    .projects-container {
+      display: flex;
+      margin-top: 30px;
     }
   }
