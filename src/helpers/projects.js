@@ -3,6 +3,7 @@
 import { ProjectI } from '../types/interfaces/';
 
 // TODO: change hardcoded source paths to dynamic paths based on dev or prod
+// TODO: replace stock images with real ones
 
 const projects: ProjectI[] = [
   {
@@ -21,12 +22,14 @@ const projects: ProjectI[] = [
   },
   {
     id: 3,
+    image: 'https://www.denverpost.com/wp-content/uploads/2018/05/024af113ce2a4cd9bdbeef7c8566ce77.jpg?w=620',
     name: 'Foo Project 3',
     description: 'I am the Foo Project 3',
     href: 'https://www.google.com',
   },
   {
     id: 4,
+    image: 'https://www.denverpost.com/wp-content/uploads/2018/05/024af113ce2a4cd9bdbeef7c8566ce77.jpg?w=620',
     name: 'Foo Project 4',
     description: 'I am the Foo Project 4',
     href: 'https://www.google.com',
