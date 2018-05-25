@@ -29,3 +29,7 @@ export interface ProjectTileI {
   source: string,
 }
 
+export interface TruncateI {
+  (text: string): string,
+}
+
