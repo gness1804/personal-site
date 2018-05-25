@@ -22,17 +22,17 @@ const projects: ProjectI[] = [
   },
   {
     id: 3,
-    image: 'https://www.denverpost.com/wp-content/uploads/2018/05/024af113ce2a4cd9bdbeef7c8566ce77.jpg?w=620',
-    name: 'Foo Project 3',
-    description: 'I am the Foo Project 3',
-    href: 'https://www.google.com',
+    image: 'http://localhost:8080/assets/weathrly.png',
+    name: 'Weathrly 3.0',
+    description: 'A basic weather app using the Weather Underground API. The user can select any US city and state and display a forecast of several days (sorry, no international locations yet); select from a convenient dropdown of states; and geolocate (if the user enables this option), which auto-populates the city and state fields based on the user\'s location.',
+    href: 'https://github.com/gness1804/weather-app-redone',
   },
   {
     id: 4,
-    image: 'https://www.denverpost.com/wp-content/uploads/2018/05/024af113ce2a4cd9bdbeef7c8566ce77.jpg?w=620',
-    name: 'Foo Project 4',
-    description: 'I am the Foo Project 4',
-    href: 'https://www.google.com',
+    image: 'http://localhost:8080/assets/we-the-people.png',
+    name: 'MyGov (Formerly We The People) (with Ian Lancaster)',
+    description: 'MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the Sunlight Congress API, the application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. The application won first prize in a code competition at Turing School in March 2017.',
+    href: 'https://github.com/gness1804/we-the-people-native',
   },
 ];
 
