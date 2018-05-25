@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .project-tile {
   margin-right: 5vw;
   width: 20vw;
@@ -8,7 +10,8 @@
     }
 
     .project-tile-image {
-      height: 50%;
-      width: 100%;
+      border: 1px solid $medium-gray;
+      height: 30vh;
+      width: 20vw;
     }
 }
