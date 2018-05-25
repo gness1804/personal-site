@@ -1,12 +1,16 @@
 @import 'variables.scss';
 
 .project-tile {
-  margin-right: 5vw;
   width: 20vw;
 
     &:nth-child(3),
     &:last-child {
       margin-top: 20vh;
+    }
+
+    &:first-child,
+    &:nth-child(3) {
+      margin-right: 5vw;
     }
 
     .project-tile-image {
