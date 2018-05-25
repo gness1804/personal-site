@@ -1,28 +1,32 @@
 <template lang="pug">
   .varied-description
-    p(class="varied-description-text") {{truncatedText}}
-    TextPopup(v-bind:text="text")
+    p(class="varied-description-text") {{revisedText}}
 </template>
 
 <script>
 // @flow
 import truncate from '../helpers/truncate';
-import TextPopup from './TextPopup.vue';
+import { VariedDescriptionI } from '../types/interfaces/';
 
 export default {
   name: 'VariedDescription',
-  components: {
-    TextPopup,
-  },
   props: {
     text: {
       type: String,
       required: true,
     },
   },
+  data(): VariedDescriptionI {
+    return {
+      isTruncated: true,
+    };
+  },
   computed: {
-    truncatedText: function (): string {
-      return truncate(this.text);
+    revisedText: function (): string {
+      if (this.isTruncated) {
+        return truncate(this.text);
+      }
+      return this.text;
     },
   },
 };

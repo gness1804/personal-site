@@ -33,3 +33,7 @@ export interface TruncateI {
   (text: string): string,
 }
 
+export interface VariedDescriptionI {
+  isTruncated: boolean,
+}
+
