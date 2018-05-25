@@ -1,6 +1,6 @@
 <template lang="pug">
   .varied-description
-    p(class="varied-description-text") {{revisedText}}
+    p(class="varied-description-text" v-on:click="expandText") {{revisedText}}
 </template>
 
 <script>
@@ -20,6 +20,11 @@ export default {
     return {
       isTruncated: true,
     };
+  },
+  methods: {
+    expandText: function (): void {
+      this.isTruncated = !this.isTruncated;
+    },
   },
   computed: {
     revisedText: function (): string {
