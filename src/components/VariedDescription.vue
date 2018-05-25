@@ -1,7 +1,7 @@
 <template lang="pug">
   .varied-description
     p(class="varied-description-text") {{truncatedText}}
-    TextPopup
+    TextPopup(v-bind:text="text")
 </template>
 
 <script>
