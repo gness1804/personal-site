@@ -1,8 +1,9 @@
 /* global it, describe */
 const { assert } = require('chai');
+const App = require('../flow/truncate');
 
-describe('test test', () => {
-  it('should be true', () => {
-    assert.strictEqual(true, true);
+describe('truncate', () => {
+  it('should be a function', () => {
+    assert.isFunction(App);
   });
 });
