@@ -1,6 +1,6 @@
 <template lang="pug">
   .varied-description
-    p(class="varied-description-text" v-on:click="expandText" v-bind:class="{ clickable: isLongEnough }") {{revisedText}}
+    p(class="varied-description-text" v-on:click="expandText" v-bind:class="{ clickable: isLongEnough }" v-bind:title="isLongEnough ? textTitle : ''") {{revisedText}}
 </template>
 
 <script>
@@ -20,6 +20,7 @@ export default {
     return {
       isTruncated: true,
       isLongEnough: false,
+      textTitle: 'Expand or Collapse Text',
     };
   },
   methods: {
