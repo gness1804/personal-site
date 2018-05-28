@@ -1,6 +1,6 @@
 <template lang="pug">
   .varied-description
-    p(class="varied-description-text" v-on:click="expandText") {{revisedText}}
+    p(class="varied-description-text" v-on:click="expandText" v-bind:class="{ clickable: isLongEnough }") {{revisedText}}
 </template>
 
 <script>
@@ -19,6 +19,7 @@ export default {
   data(): VariedDescriptionI {
     return {
       isTruncated: true,
+      isLongEnough: false,
     };
   },
   methods: {
@@ -33,6 +34,11 @@ export default {
       }
       return this.text;
     },
+  },
+  mounted: function (): void {
+    if (this.text.split(' ').length > 50) {
+      this.isLongEnough = true;
+    }
   },
 };
 </script>

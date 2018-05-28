@@ -35,5 +35,6 @@ export interface TruncateI {
 
 export interface VariedDescriptionI {
   isTruncated: boolean,
+  isLongEnough: boolean,
 }
 

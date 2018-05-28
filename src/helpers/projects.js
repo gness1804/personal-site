@@ -24,7 +24,7 @@ const projects: ProjectI[] = [
     id: 3,
     image: 'http://localhost:8080/assets/weathrly.png',
     name: 'Weathrly 3.0',
-    description: 'A basic weather app using the Weather Underground API. The user can select any US city and state and display a forecast of several days (sorry, no international locations yet); select from a convenient dropdown of states; and geolocate (if the user enables this option), which auto-populates the city and state fields based on the user\'s location.',
+    description: 'A basic weather app using the Weather Underground API. The user can select any US city and state and display a forecast of several days; select from a convenient dropdown of states; and geolocate (if the user enables this option), which auto-populates the city and state fields based on the user\'s location.',
     href: 'https://github.com/gness1804/weather-app-redone',
   },
   {
