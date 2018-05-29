@@ -6,7 +6,7 @@
     text-align: center;
 
   .code-heading {
-    font-size: $large-font - 10px;
+    font-size: $large-font;
     font-weight: $thin;
     margin: 60px auto 30px;
     }
@@ -42,6 +42,12 @@
             width: 80%;
           }
         }
+      }
+    }
+
+    @media (max-width: $bp-phone) {
+      .code-heading {
+        font-size: $large-font-mobile;
       }
     }
   }

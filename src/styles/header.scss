@@ -6,6 +6,7 @@
 
   h1 {
     color: $standard-gray;
+    font-size: $h1-font;
     margin-right: 60px;
     text-transform: uppercase;
 
@@ -38,8 +39,8 @@
 
 @media (max-width: $bp-phone) {
   #header {
-
     h1 {
+      font-size: $h1-font-mobile;
       margin: 0 0 40px;
     }
 
