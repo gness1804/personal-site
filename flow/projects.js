@@ -36,5 +36,5 @@ const projects             = [
   },
 ];
 
-module.exports = projects;
+module.exports =  projects;
 

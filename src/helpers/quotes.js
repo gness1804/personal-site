@@ -20,5 +20,5 @@ const quotes: QuotesI[] = [
   },
 ];
 
-module.exports = quotes;
+export default quotes;
 

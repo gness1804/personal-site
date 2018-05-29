@@ -11,4 +11,4 @@ const truncate            = (text) => {
   return `${words.slice(0, maxWordLen).join(' ')}...`;
 };
 
-module.exports = truncate;
+module.exports =  truncate;

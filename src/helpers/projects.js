@@ -36,5 +36,5 @@ const projects: ProjectI[] = [
   },
 ];
 
-module.exports = projects;
+export default projects;
 
