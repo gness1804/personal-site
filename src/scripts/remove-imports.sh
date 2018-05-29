@@ -1,5 +1,12 @@
 #!/bin/bash
 
+function removeEFiles ()
+{
+  if test $( ls flow | grep -c '\-e') != 0; then
+     rm flow/*-e;
+  fi
+}
+
 function removeImports ()
 {
   sed -i -e 's/import/\/\/import/g' flow/$1
@@ -12,5 +19,7 @@ for i in "${files[@]}"
 do
   removeImports "$i"
 done
+
+removeEFiles
 
 
