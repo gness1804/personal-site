@@ -26,4 +26,17 @@
       flex-wrap: wrap;
       margin-top: 60px;
     }
+
+    @media (max-width: $bp-tablet) {
+      .projects-container {
+        align-items: center;
+        flex-direction: column;
+
+        .project-tile {
+          margin-right: 0;
+          margin-top: 0;
+          width: 80%;
+        }
+      }
+    }
   }
