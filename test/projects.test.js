@@ -17,4 +17,11 @@ describe('projects', () => {
       assert.strictEqual(typeof elem.id, 'number');
     }
   });
+
+  it('should have http property that is a valid url', () => {
+    for (let i = 0; i < App.length; i++) {
+      const url = App[i].href;
+      assert.strictEqual(/http(s)?:\/\//.test(url), true);
+    }
+  });
 });
