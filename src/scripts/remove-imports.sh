@@ -1,5 +1,16 @@
 #!/bin/bash
 
-sed -i -e 's/import/\/\/import/g' flow/truncate.js
+function removeImports ()
+{
+  sed -i -e 's/import/\/\/import/g' flow/$1
+  echo 'Commented out import statements.'
+}
 
-echo 'Commented out import statements.'
+files=( $(ls flow) )
+
+for i in "${files[@]}"
+do
+  removeImports "$i"
+done
+
+

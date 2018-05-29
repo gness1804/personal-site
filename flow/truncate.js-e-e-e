@@ -1,6 +1,6 @@
 //      
 
-//import { TruncateI } from '../types/interfaces';
+import { TruncateI } from '../types/interfaces';
 
 const truncate            = (text) => {
   const words           = text.split(' ');

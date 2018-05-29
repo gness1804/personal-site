@@ -1,6 +1,6 @@
 //      
 
-//import { ProjectI } from '../types/interfaces/';
+import { ProjectI } from '../types/interfaces/';
 
 // TODO: change hardcoded source paths to dynamic paths based on dev or prod
 // TODO: replace stock images with real ones

@@ -6,7 +6,7 @@
     "dev": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "npm run unflow && mocha",
+    "test": "npm run unflow && npm run remove-imports && mocha",
     "flow": "flow",
     "unflow": "flow-remove-types src/helpers --out-dir flow/",
     "ngrok": "ngrok http 8080",

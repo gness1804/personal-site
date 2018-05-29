@@ -1,5 +1,5 @@
 //      
-//import { QuotesI } from '../types/interfaces/';
+import { QuotesI } from '../types/interfaces/';
 
 const quotes            = [
   {
