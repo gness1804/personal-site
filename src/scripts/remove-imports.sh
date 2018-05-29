@@ -10,7 +10,7 @@ function removeEFiles ()
 function removeImports ()
 {
   sed -i -e 's/import/\/\/import/g' flow/$1
-  echo 'Commented out import statements.'
+  echo 'Commented out import statements in flow/'$1'.'
 }
 
 files=( $(ls flow) )
