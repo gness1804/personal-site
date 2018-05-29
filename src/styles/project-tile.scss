@@ -3,6 +3,11 @@
 .project-tile {
   width: 20vw;
 
+  .project-tile-name {
+    font-size: $medium-header;
+    font-weight: $standard-bold;
+  }
+
     &:nth-child(3),
     &:last-child {
       margin-top: 10vh;
@@ -17,5 +22,11 @@
       border: 1px solid $medium-gray;
       height: 30vh;
       width: 20vw;
+    }
+
+    @media (max-width: $bp-phone) {
+      .project-tile-name {
+        font-size: $medium-header-mobile;
+      }
     }
 }

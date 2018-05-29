@@ -2,7 +2,7 @@
   .project-tile
     img(class="project-tile-image"
     v-bind:src="source")
-    h4(class="project-tile-name") {{project.name}}
+    p(class="project-tile-name") {{project.name}}
     VariedDescription(v-bind:text="project.description")
     a(v-bind:href="url"
     target="_blank"
