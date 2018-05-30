@@ -1,11 +1,53 @@
 @import 'variables.scss';
+@import 'mixins.scss';
 
   .code {
+    margin: 0 $standard-side-margin;
     text-align: center;
 
   .code-heading {
-    font-size: $large-font - 10px;
+    font-size: $large-font;
     font-weight: $thin;
-    margin: 60px auto;
+    margin: 60px auto 30px;
+    }
+
+    .big-github-img {
+      @include large-img;
+
+      &:hover {
+        opacity: $hover-opacity;
+      }
+    }
+
+    .projects-container {
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 60px;
+    }
+
+    @media (max-width: $bp-tablet) {
+      .projects-container {
+        align-items: center;
+        flex-direction: column;
+
+        .project-tile {
+          margin-bottom: 50px;
+          margin-right: 0;
+          margin-top: 0;
+          width: 80%;
+
+          .project-tile-image {
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    @media (max-width: $bp-phone) {
+      .code-heading {
+        font-size: $large-font-mobile;
+      }
     }
   }

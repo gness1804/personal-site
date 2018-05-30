@@ -1,7 +1,7 @@
-// @flow
-import { QuotesI } from '../types/interfaces/';
+//      
+//import { QuotesI } from '../types/interfaces/';
 
-const quotes: QuotesI[] = [
+const quotes            = [
   {
     body: 'Everything you want is on the other side of fear.',
     author: 'Jack Canfield',
@@ -20,5 +20,5 @@ const quotes: QuotesI[] = [
   },
 ];
 
-export default quotes;
+module.exports =  quotes;
 

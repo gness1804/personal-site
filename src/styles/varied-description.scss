@@ -1,0 +1,11 @@
+@import 'variables.scss';
+
+.varied-description {
+  .clickable {
+    cursor: pointer;
+
+    &:hover {
+      color: $standard-blue-hover;
+    }
+  }
+}
