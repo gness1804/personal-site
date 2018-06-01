@@ -1,6 +1,6 @@
 <template lang="pug">
   .writing
-    h2 Stuff I Have Written
+    h2(class="writing-heading") Stuff I Have Written
 </template>
 
 <script>

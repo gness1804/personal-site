@@ -1,0 +1,11 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+.writing {
+  margin: 0 $standard-side-margin;
+  text-align: center;
+  
+  .writing-heading {
+    @include page-heading;
+  }
+}
