@@ -16,5 +16,10 @@
       height: 600px;
       width: 40%;
     }
+
+    .writing-book-title {
+      @include subheading;
+      margin-top: 60px;
+    }
   }
 }

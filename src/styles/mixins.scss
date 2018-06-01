@@ -16,3 +16,9 @@
   margin: 60px auto 30px;
 }
 
+@mixin subheading () {
+  font-family: $cursive-font;
+  font-size: $large-font;
+  font-weight: $standard-bold;
+}
+
