@@ -4,8 +4,17 @@
 .writing {
   margin: 0 $standard-side-margin;
   text-align: center;
-  
+
   .writing-heading {
     @include page-heading;
+  }
+
+  .book-container {
+    margin-top: 60px;
+
+    .writing-book-cover-image {
+      height: 600px;
+      width: 40%;
+    }
   }
 }
