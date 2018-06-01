@@ -1,6 +1,6 @@
 <template lang="pug">
   .code
-    h2(class="code-heading") Stuff I built
+    h2(class="code-heading") Stuff I Built
     img(src="../assets/github.png"
     alt="Github logo" class="big-github-img clickable-img" title="Github" v-on:click="openGithub")
     .projects-container(v-if="projects.length > 0")
