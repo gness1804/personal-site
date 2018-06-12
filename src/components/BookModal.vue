@@ -1,5 +1,5 @@
 <template lang="pug">
-  .book-modal
+  .book-modal(class="centered-modal")
     p I am the book modal component.
 </template>
 
