@@ -6,7 +6,7 @@
         img(src="../assets/book-cover_.jpg" alt="The cover of my book." class="writing-book-cover-image")
       p(class="writing-book-title" v-on:mouseover="showModal") An Islandwide Struggle for Freedom: Revolution, Emancipation, and Reenslavement in Hispaniola, 1789-1809
     .modal-container(v-if="modalVisible")
-      BookModal
+      BookModal(v-on:closeModal="closeModal")
 </template>
 
 <script>
@@ -25,6 +25,9 @@ export default {
     };
   },
   methods: {
+    closeModal: function (): void {
+      this.modalVisible = false;
+    },
     showModal: function (): void {
       this.modalVisible = true;
     },
