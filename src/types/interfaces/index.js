@@ -39,3 +39,7 @@ export interface VariedDescriptionI {
   textTitle: string,
 }
 
+export interface WritingI {
+  modalVisible: boolean,
+}
+
