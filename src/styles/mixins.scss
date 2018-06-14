@@ -28,3 +28,8 @@
   box-shadow: 3px 5px 14px 0px rgba(0,0,0,0.75);
 }
 
+@mixin sectionTitle () {
+  font-size: $medium-header;
+  font-weight: $standard-bold;
+}
+

@@ -1,11 +1,11 @@
 @import 'variables.scss';
+@import 'mixins.scss';
 
 .project-tile {
   width: 20vw;
 
   .project-tile-name {
-    font-size: $medium-header;
-    font-weight: $standard-bold;
+    @include sectionTitle;
   }
 
     &:nth-child(3),

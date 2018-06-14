@@ -1,10 +1,14 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
 .book-modal {
   .book-modal-header {
-
+    @include sectionTitle;
+    margin-bottom: 20px;
   }
 
   .book-modal-description {
-
+    margin: 0 auto;
   }
 
   .book-modal-amazon-icon {
