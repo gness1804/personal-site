@@ -38,8 +38,3 @@ export interface VariedDescriptionI {
   isLongEnough: boolean,
   textTitle: string,
 }
-
-export interface WritingI {
-  modalVisible: boolean,
-}
-
