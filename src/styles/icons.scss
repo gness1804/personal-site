@@ -6,9 +6,14 @@
 
     .icon-book {
 
-      img {
+      .icons-container-icon {
         width: 100px;
         height: 100px;
+      }
+
+      .amazon-icon {
+        width: 100px;
+        height: 80px;
       }
 
       &:first-child {
