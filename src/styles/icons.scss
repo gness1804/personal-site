@@ -4,7 +4,12 @@
     flex-direction: row;
     justify-content: center;
 
-    .icons-container-icon {
+    .icon-book {
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
 
       &:first-child {
         margin-right: 10vw;
