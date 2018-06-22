@@ -1,3 +1,10 @@
+@import 'mixins.scss';
+
 .article {
-  color: red;
+  @include borderStandard;
+
+  .article-img {
+    width: 100px;
+    height: 100px;
+  }
 }
