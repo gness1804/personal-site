@@ -2,6 +2,7 @@
 
 .medium-articles {
   @include borderStandard;
+  padding: 10px;
 
   .medium-articles-headline {
      @include sectionTitle;
