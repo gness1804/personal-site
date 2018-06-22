@@ -33,3 +33,8 @@
   font-weight: $standard-bold;
 }
 
+@mixin borderStandard {
+  border: 2px solid $standard-gray;
+  border-radius: 5px;
+}
+

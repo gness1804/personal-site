@@ -7,13 +7,18 @@
         img(src="../assets/book-cover_.jpg" alt="The cover of my book." class="writing-book-cover-image")
       p(class="writing-book-title") An Islandwide Struggle for Freedom: Revolution, Emancipation, and Reenslavement in Hispaniola, 1789-1809
     +icons()
+    Medium
 </template>
 
 <script>
 // @flow
+import Medium from './Medium.vue';
 
 export default {
   name: 'Writing',
+  components: {
+    Medium,
+  },
 };
 </script>
 

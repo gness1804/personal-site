@@ -10,6 +10,7 @@
 @import 'varied-description.scss';
 @import 'writing.scss';
 @import 'icons.scss';
+@import 'medium.scss';
 
 * {
   box-sizing: border-box;
@@ -47,8 +48,7 @@ a {
 
 .centered-modal {
   background-color: $standard-background;
-  border: 2px solid $standard-gray;
-  border-radius: 5px;
+  @include borderStandard;
   @include boxShadowStandard;
   height: 80vh;
   left: 0;

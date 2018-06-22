@@ -1,0 +1,9 @@
+@import 'mixins.scss';
+
+.medium-articles {
+  @include borderStandard;
+
+  .medium-articles-headline {
+     @include sectionTitle;
+  }
+}
