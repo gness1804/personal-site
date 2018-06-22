@@ -10,6 +10,11 @@
   width: 75px;
 }
 
+@mixin x-large-img () {
+  width: 250px;
+  height: 250px;
+}
+
 @mixin page-heading () {
   font-size: $large-font;
   font-weight: $thin;

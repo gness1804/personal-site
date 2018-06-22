@@ -3,13 +3,13 @@
 .article {
   @include borderStandard;
   margin: 10px auto;
+  padding: 5px;
 
   &:last-child {
     margin-bottom: 0;
   }
 
   .article-img {
-    width: 100px;
-    height: 100px;
+    @include x-large-img;
   }
 }
