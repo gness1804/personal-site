@@ -2,6 +2,11 @@
 
 .article {
   @include borderStandard;
+  margin: 10px auto;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   .article-img {
     width: 100px;

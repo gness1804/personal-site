@@ -4,9 +4,7 @@
     v-bind:src="source")
     p(class="project-tile-name") {{project.name}}
     VariedDescription(v-bind:text="project.description")
-    a(v-bind:href="url"
-    target="_blank"
-    class="tag-link") View Code >
+    a(v-bind:href="url" target="_blank" class="link") View Code >
 </template>
 
 <script>
