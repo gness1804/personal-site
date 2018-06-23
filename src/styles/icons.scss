@@ -1,0 +1,39 @@
+@import 'variables.scss';
+
+.icons-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .icon-book {
+
+      .icons-container-icon {
+        width: 100px;
+        height: 100px;
+      }
+
+      .amazon-icon {
+        width: 100px;
+        height: 80px;
+      }
+
+      &:first-child {
+        margin-right: 10vw;
+      }
+    }
+  }
+
+  @media (max-width: $bp-tablet) {
+    .icons-container {
+
+      .icon-book {
+
+        .icons-container-icon,
+        .amazon-icon {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+  }

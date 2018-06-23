@@ -1,0 +1,11 @@
+@import 'mixins.scss';
+
+.medium-articles {
+  @include borderStandard;
+  margin-top: 50px;
+  padding: 10px;
+
+  .medium-articles-headline {
+     @include sectionTitle;
+  }
+}

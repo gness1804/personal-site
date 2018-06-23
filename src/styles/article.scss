@@ -1,0 +1,25 @@
+@import 'mixins.scss';
+@import 'variables.scss';
+
+.article {
+  @include borderStandard;
+  margin: 10px auto;
+  padding: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .article-img {
+    @include x-large-img;
+  }
+}
+
+@media (max-width: $bp-phone) {
+  .article {
+
+    .article-img {
+      width: 30vw;
+    }
+  }
+}

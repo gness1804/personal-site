@@ -6,9 +6,7 @@
     text-align: center;
 
   .code-heading {
-    font-size: $large-font;
-    font-weight: $thin;
-    margin: 60px auto 30px;
+    @include page-heading;
     }
 
     .big-github-img {

@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import 'mixins.scss';
 
 #landing {
   margin: 0 $standard-side-margin;
@@ -14,9 +15,7 @@
     text-align: center;
 
     .main-text {
-      font-family: $cursive-font;
-      font-size: $large-font;
-      font-weight: $standard-bold;
+      @include subheading;
     }
 
     .sub-text {

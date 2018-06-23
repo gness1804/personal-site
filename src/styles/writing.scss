@@ -1,0 +1,65 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+.writing {
+  margin: 0 $standard-side-margin;
+  text-align: center;
+
+  .writing-heading {
+    @include page-heading;
+  }
+
+  .book-container {
+    margin-top: 60px;
+
+    .writing-book-cover-image {
+      height: 600px;
+      width: 40%;
+    }
+
+    .writing-book-title {
+      @include subheading;
+      margin-top: 60px;
+    }
+  }
+}
+
+@media (max-width: $bp-small-desktop) {
+  .writing {
+
+    .book-container {
+
+      .writing-book-cover-image {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .writing {
+
+    .book-container {
+
+      .writing-book-title {
+        @include subheadingSmall;
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-phone) {
+  .writing {
+
+    .book-container {
+
+      .writing-book-cover-image {
+        width: 80%;
+      }
+
+      .writing-book-title {
+        @include subheadingXSmall;
+      }
+    }
+  }
+}

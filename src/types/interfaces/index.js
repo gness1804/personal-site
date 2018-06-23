@@ -38,4 +38,3 @@ export interface VariedDescriptionI {
   isLongEnough: boolean,
   textTitle: string,
 }
-

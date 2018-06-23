@@ -1,0 +1,6 @@
+mixin article(file, url, text)
+
+  .article
+    img(src=file class="article-img")
+    a(href=url target="_blank" class="link")
+      p(class="article-text") #{text}
