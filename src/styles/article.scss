@@ -1,4 +1,5 @@
 @import 'mixins.scss';
+@import 'variables.scss';
 
 .article {
   @include borderStandard;
@@ -11,5 +12,14 @@
 
   .article-img {
     @include x-large-img;
+  }
+}
+
+@media (max-width: $bp-phone) {
+  .article {
+
+    .article-img {
+      width: 30vw;
+    }
   }
 }
