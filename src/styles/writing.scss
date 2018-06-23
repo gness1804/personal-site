@@ -36,6 +36,18 @@
   }
 }
 
+@media (max-width: $bp-tablet) {
+  .writing {
+
+    .book-container {
+
+      .writing-book-title {
+        @include subheadingSmall;
+      }
+    }
+  }
+}
+
 @media (max-width: $bp-phone) {
   .writing {
 
@@ -43,6 +55,10 @@
 
       .writing-book-cover-image {
         width: 80%;
+      }
+
+      .writing-book-title {
+        @include subheadingXSmall;
       }
     }
   }
