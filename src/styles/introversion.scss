@@ -1,0 +1,15 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+.introversion {
+  margin: 0 $standard-side-margin;
+  text-align: center;
+
+  .introversion-heading {
+    @include page-heading;
+  }
+
+  .principles-ol {
+    text-align: left;
+  }
+}
