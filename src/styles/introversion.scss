@@ -1,0 +1,24 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+.introversion {
+  margin: 0 $standard-side-margin;
+  text-align: center;
+
+  .introversion-heading {
+    @include page-heading;
+  }
+
+  .introversion-h3-message {
+    margin: 40px auto 30px;
+  }
+
+  .principles-ol {
+    text-align: left;
+  }
+
+  .introversion-more-soon-message {
+    font-style: italic;
+    margin-top: 40px;
+  }
+}

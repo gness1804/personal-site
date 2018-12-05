@@ -1,0 +1,309 @@
+#header {
+  margin: 0 20vw; }
+  #header h1 {
+    color: #8b8d90;
+    font-size: 46px;
+    margin-right: 60px;
+    text-transform: uppercase; }
+    #header h1:hover {
+      color: #00a3e0; }
+  #header .top-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  #header .social-icons-container {
+    display: flex;
+    margin: 10px 10px 0 0; }
+    #header .social-icons-container .social-icon {
+      height: 20px;
+      width: 20px;
+      margin-right: 5px; }
+      #header .social-icons-container .social-icon:hover {
+        opacity: 0.5; }
+
+@media (max-width: 550px) {
+  #header h1 {
+    font-size: 38px;
+    margin: 0 0 40px; }
+  #header .top-part {
+    flex-direction: column;
+    text-align: center; }
+  #header .social-icons-container {
+    margin-bottom: 20px; }
+    #header .social-icons-container .social-icon {
+      margin-right: 20px; } }
+.header-links {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0; }
+  .header-links li {
+    display: inline;
+    margin-right: 10%; }
+    .header-links li a {
+      color: #8b8d90;
+      text-transform: uppercase; }
+      .header-links li a:visited {
+        color: #aeabb3; }
+      .header-links li a:hover {
+        color: #00a3e0; }
+
+#stickyHeader .header-links {
+  padding: 0 5vw;
+  width: 100%; }
+
+@media (max-width: 550px) {
+  .header-links {
+    flex-direction: column;
+    margin-bottom: -20px; }
+
+  li {
+    margin-bottom: 15px; }
+
+  #stickyHeader .header-links {
+    flex-direction: row;
+    margin-bottom: 0; } }
+#landing {
+  margin: 0 20vw; }
+  #landing .splash-image {
+    border-radius: 2rem;
+    height: 35rem;
+    margin-top: 60px;
+    width: 100%; }
+  #landing .landing-splash-text-container {
+    margin: 100px auto;
+    text-align: center; }
+    #landing .landing-splash-text-container .main-text {
+      font-family: "Dancing Script", cursive;
+      font-size: 40px;
+      font-weight: 600; }
+    #landing .landing-splash-text-container .sub-text {
+      font-family: "Dancing Script", cursive;
+      font-size: 30px; }
+
+@media (max-width: 550px) {
+  #landing .splash-image {
+    height: 20rem; } }
+#stickyHeader {
+  background-color: #fff;
+  border-bottom: 1px solid #d1ccbd;
+  margin: 0 20vw;
+  position: sticky;
+  text-align: center;
+  top: -1px; }
+  #stickyHeader h1 {
+    color: #8b8d90;
+    margin-bottom: 30px; }
+    #stickyHeader h1:hover {
+      color: #00a3e0; }
+
+.quotes-main-container .quote {
+  text-align: center; }
+  .quotes-main-container .quote .quote-body {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px; }
+  .quotes-main-container .quote .quote-author {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px; }
+
+.code {
+  margin: 0 20vw;
+  text-align: center; }
+  .code .code-heading {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 60px auto 30px; }
+  .code .big-github-img {
+    height: 75px;
+    width: 75px; }
+    .code .big-github-img:hover {
+      opacity: 0.5; }
+  .code .projects-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px; }
+  @media (max-width: 900px) {
+    .code .projects-container {
+      align-items: center;
+      flex-direction: column; }
+      .code .projects-container .project-tile {
+        margin-bottom: 50px;
+        margin-right: 0;
+        margin-top: 0;
+        width: 80%; }
+        .code .projects-container .project-tile .project-tile-image {
+          width: 80%; } }
+  @media (max-width: 550px) {
+    .code .code-heading {
+      font-size: 32px; } }
+
+.project-tile {
+  width: 20vw; }
+  .project-tile .project-tile-name {
+    font-size: 26px;
+    font-weight: 600; }
+  .project-tile:nth-child(3), .project-tile:last-child {
+    margin-top: 10vh; }
+  .project-tile:first-child, .project-tile:nth-child(3) {
+    margin-right: 5vw; }
+  .project-tile .project-tile-image {
+    border: 1px solid #aeabb3;
+    height: 30vh;
+    width: 20vw; }
+  @media (max-width: 550px) {
+    .project-tile .project-tile-name {
+      font-size: 22px; } }
+
+.varied-description .clickable {
+  cursor: pointer; }
+  .varied-description .clickable:hover {
+    color: #00a3e0; }
+
+.writing {
+  margin: 0 20vw;
+  text-align: center; }
+  .writing .writing-heading {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 60px auto 30px; }
+  .writing .book-container {
+    margin-top: 60px; }
+    .writing .book-container .writing-book-cover-image {
+      height: 600px;
+      width: 40%; }
+    .writing .book-container .writing-book-title {
+      font-family: "Dancing Script", cursive;
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 60px; }
+
+@media (max-width: 1100px) {
+  .writing .book-container .writing-book-cover-image {
+    width: 60%; } }
+@media (max-width: 900px) {
+  .writing .book-container .writing-book-title {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 600;
+    font-size: 32px; } }
+@media (max-width: 550px) {
+  .writing .book-container .writing-book-cover-image {
+    width: 80%; }
+  .writing .book-container .writing-book-title {
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    font-weight: 600;
+    font-size: 28px; } }
+.icons-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .icons-container .icon-book .icons-container-icon {
+    width: 100px;
+    height: 100px; }
+  .icons-container .icon-book .amazon-icon {
+    width: 100px;
+    height: 80px; }
+  .icons-container .icon-book:first-child {
+    margin-right: 10vw; }
+
+@media (max-width: 900px) {
+  .icons-container .icon-book .icons-container-icon,
+  .icons-container .icon-book .amazon-icon {
+    width: 80px;
+    height: 80px; } }
+.medium-articles {
+  border: 2px solid #8b8d90;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 10px; }
+  .medium-articles .medium-articles-headline {
+    font-size: 26px;
+    font-weight: 600; }
+
+.article {
+  border: 2px solid #8b8d90;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 5px; }
+  .article:last-child {
+    margin-bottom: 0; }
+  .article .article-img {
+    width: 250px;
+    height: 250px; }
+
+@media (max-width: 550px) {
+  .article .article-img {
+    width: 30vw; } }
+.introversion {
+  margin: 0 20vw;
+  text-align: center; }
+  .introversion .introversion-heading {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 60px auto 30px; }
+  .introversion .introversion-h3-message {
+    margin: 40px auto 30px; }
+  .introversion .principles-ol {
+    text-align: left; }
+  .introversion .introversion-more-soon-message {
+    font-style: italic;
+    margin-top: 40px; }
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+#app {
+  margin-top: 60px; }
+
+.clickable-img {
+  cursor: pointer; }
+
+.hidden {
+  display: none; }
+
+.shown {
+  display: block; }
+
+.link {
+  font-size: 16px;
+  color: #12A2DD; }
+  .link:hover {
+    color: #00a3e0; }
+
+.centered-modal {
+  background-color: #fff;
+  border: 2px solid #8b8d90;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 5px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 5px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 5px 14px 0px rgba(0, 0, 0, 0.75);
+  height: 80vh;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  top: 80px;
+  transition: opacity 0.3s ease;
+  width: 80vw;
+  z-index: 999; }
+  .centered-modal .close-button {
+    color: #ec2d3b;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 20px 0 0;
+    text-align: right; }
+
+/*# sourceMappingURL=main.css.map */
