@@ -8,11 +8,12 @@
         | Later thinkers have clarified that the essential difference stems from the degree of energy that one draws from social interactions.
         | Here are my thoughts on being an introvert in an extrovert's world.
     .principles
-        h3 These are my principles...
+        h3(class="introversion-h3-message") These are my principles...
         ol(class="principles-ol")
           li(class="principles-li") Everyone deserves to be heard; every voice matters.
           li(class="principles-li") The frequency of contributions in a conversation, be it personal or professional, matters far less than the quality of contributions.
-          li(class="principles-li")
+          li(class="principles-li") Merit of argument matters far more than personal style.
+    p(class="introversion-more-soon-message") More soon...
 
 </template>
 

@@ -9,7 +9,16 @@
     @include page-heading;
   }
 
+  .introversion-h3-message {
+    margin: 40px auto 30px;
+  }
+
   .principles-ol {
     text-align: left;
+  }
+
+  .introversion-more-soon-message {
+    font-style: italic;
+    margin-top: 40px;
   }
 }
