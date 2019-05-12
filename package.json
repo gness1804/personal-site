@@ -9,10 +9,11 @@
     "test": "npm run unflow && npm run remove-imports && mocha",
     "flow": "flow",
     "unflow": "flow-remove-types src/helpers --out-dir flow/",
-    "ngrok": "ngrok http 8080",
     "remove-imports": "bash src/scripts/remove-imports.sh",
     "clean": "npm cache verify",
-    "prettier": "prettier --write src/**/*.vue src/**/*.js test/**/*.js"
+    "prettier": "prettier --write src/**/*.vue src/**/*.js test/**/*.js",
+    "now-dev": "vue-cli-service serve  --port=$PORT",
+    "now-build": "vue-cli-service build"
   },
   "dependencies": {
     "pug": "^2.0.3",
@@ -39,7 +40,6 @@
     "flow-bin": "^0.72.0",
     "flow-remove-types": "^1.2.3",
     "mocha": "^5.2.0",
-    "ngrok": "^3.0.1",
     "node-sass": "^4.10.0",
     "prettier": "1.17.0",
     "sass-loader": "^7.0.1",
