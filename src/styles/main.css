@@ -256,6 +256,14 @@
     font-style: italic;
     margin-top: 40px; }
 
+.not-found {
+  margin: 0 20vw;
+  text-align: center; }
+  .not-found .not-found-heading {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 60px auto 30px; }
+
 * {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif; }

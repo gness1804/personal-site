@@ -1,0 +1,11 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+.not-found {
+  margin: 0 $standard-side-margin;
+  text-align: center;
+
+  .not-found-heading {
+    @include page-heading;
+  }
+}
