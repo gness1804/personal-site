@@ -24,10 +24,9 @@ export default {
     };
   },
   methods: {
-    openGithub: function (): void {
+    openGithub: function(): void {
       window.open('https://github.com/gness1804/');
     },
   },
 };
 </script>
-

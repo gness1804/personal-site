@@ -11,7 +11,8 @@
     "unflow": "flow-remove-types src/helpers --out-dir flow/",
     "ngrok": "ngrok http 8080",
     "remove-imports": "bash src/scripts/remove-imports.sh",
-    "clean": "npm cache verify"
+    "clean": "npm cache verify",
+    "prettier": "prettier --write src/**/*.vue src/**/*.js test/**/*.js"
   },
   "dependencies": {
     "pug": "^2.0.3",
@@ -40,6 +41,7 @@
     "mocha": "^5.2.0",
     "ngrok": "^3.0.1",
     "node-sass": "^4.10.0",
+    "prettier": "1.17.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.13"
   },

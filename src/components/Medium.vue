@@ -13,5 +13,3 @@ export default {
   name: 'Medium',
 };
 </script>
-
-

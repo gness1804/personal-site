@@ -23,16 +23,13 @@
       font-family: $cursive-font;
       font-size: $large-font - 10px;
     }
-
   }
 }
 
 @media (max-width: $bp-phone) {
   #landing {
-
     .splash-image {
       height: 20rem;
     }
   }
 }
-

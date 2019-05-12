@@ -1,49 +1,49 @@
 @import 'variables.scss';
 
-@mixin small-img () {
+@mixin small-img() {
   height: 20px;
   width: 20px;
 }
 
-@mixin large-img () {
+@mixin large-img() {
   height: 75px;
   width: 75px;
 }
 
-@mixin x-large-img () {
+@mixin x-large-img() {
   width: 250px;
   height: 250px;
 }
 
-@mixin page-heading () {
+@mixin page-heading() {
   font-size: $large-font;
   font-weight: $thin;
   margin: 60px auto 30px;
 }
 
-@mixin subheading () {
+@mixin subheading() {
   font-family: $cursive-font;
   font-size: $large-font;
   font-weight: $standard-bold;
 }
 
-@mixin subheadingSmall () {
+@mixin subheadingSmall() {
   @include subheading();
   font-size: 32px;
 }
 
-@mixin subheadingXSmall () {
+@mixin subheadingXSmall() {
   @include subheading();
   font-size: 28px;
 }
 
-@mixin boxShadowStandard () {
-  -webkit-box-shadow: 3px 5px 14px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 5px 14px 0px rgba(0,0,0,0.75);
-  box-shadow: 3px 5px 14px 0px rgba(0,0,0,0.75);
+@mixin boxShadowStandard() {
+  -webkit-box-shadow: 3px 5px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 5px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 5px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
-@mixin sectionTitle () {
+@mixin sectionTitle() {
   font-size: $medium-header;
   font-weight: $standard-bold;
 }
@@ -52,4 +52,3 @@
   border: 2px solid $standard-gray;
   border-radius: 5px;
 }
-

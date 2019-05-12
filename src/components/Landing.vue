@@ -7,7 +7,6 @@
     Quotes
 </template>
 
-
 <script>
 // @flow
 

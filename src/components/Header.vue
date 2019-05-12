@@ -28,23 +28,21 @@ export default {
     };
   },
   methods: {
-    openEmail: function (): void {
+    openEmail: function(): void {
       window.open('mailto:gness1804@gmail.com');
     },
-    openGithub: function (): void {
+    openGithub: function(): void {
       window.open('https://github.com/gness1804/');
     },
-    openLinkedIn: function (): void {
+    openLinkedIn: function(): void {
       window.open('https://www.linkedin.com/in/gness1804');
     },
-    openMedium: function (): void {
+    openMedium: function(): void {
       window.open('https://medium.com/@gness1804/');
     },
-    openTwitter: function (): void {
+    openTwitter: function(): void {
       window.open('https://twitter.com/gness1804/');
     },
   },
 };
 </script>
-
-
