@@ -6,7 +6,7 @@
 
   .splash-image {
     border-radius: 2rem;
-    height: 35rem;
+    height: 23rem;
     margin-top: 60px;
     width: 100%;
   }
@@ -26,6 +26,14 @@
   }
 }
 
+@media (min-width: $bp-small-desktop) {
+  #landing {
+    .splash-image {
+      height: 36rem;
+    }
+  }
+}
+
 @media (max-width: $bp-phone) {
   #landing {
     .splash-image {
@@ -33,3 +41,4 @@
     }
   }
 }
+

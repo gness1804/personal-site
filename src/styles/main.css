@@ -70,7 +70,7 @@
   margin: 0 20vw; }
   #landing .splash-image {
     border-radius: 2rem;
-    height: 35rem;
+    height: 23rem;
     margin-top: 60px;
     width: 100%; }
   #landing .landing-splash-text-container {
@@ -84,6 +84,9 @@
       font-family: "Dancing Script", cursive;
       font-size: 30px; }
 
+@media (min-width: 1100px) {
+  #landing .splash-image {
+    height: 36rem; } }
 @media (max-width: 550px) {
   #landing .splash-image {
     height: 20rem; } }
