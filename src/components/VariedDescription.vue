@@ -24,19 +24,19 @@ export default {
     };
   },
   methods: {
-    expandText: function (): void {
+    expandText: function(): void {
       this.isTruncated = !this.isTruncated;
     },
   },
   computed: {
-    revisedText: function (): string {
+    revisedText: function(): string {
       if (this.isTruncated) {
         return truncate(this.text);
       }
       return this.text;
     },
   },
-  mounted: function (): void {
+  mounted: function(): void {
     if (this.text.split(' ').length > 50) {
       this.isLongEnough = true;
     }

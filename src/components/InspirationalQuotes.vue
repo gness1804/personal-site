@@ -23,7 +23,7 @@ export default {
     };
   },
   methods: {
-    rotateQuotes: function (): void {
+    rotateQuotes: function(): void {
       if (this.counter < this.quotes.length - 1) {
         this.counter++;
       } else {
@@ -34,11 +34,10 @@ export default {
       this.shownQuote = this.quotes[this.counter];
     },
   },
-  mounted: function (): void {
+  mounted: function(): void {
     setInterval((): void => {
       this.rotateQuotes();
     }, 4000);
   },
 };
 </script>
-

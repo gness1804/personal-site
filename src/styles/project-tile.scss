@@ -8,25 +8,25 @@
     @include sectionTitle;
   }
 
-    &:nth-child(3),
-    &:last-child {
-      margin-top: 10vh;
-    }
+  &:nth-child(3),
+  &:last-child {
+    margin-top: 10vh;
+  }
 
-    &:first-child,
-    &:nth-child(3) {
-      margin-right: 5vw;
-    }
+  &:first-child,
+  &:nth-child(3) {
+    margin-right: 5vw;
+  }
 
-    .project-tile-image {
-      border: 1px solid $medium-gray;
-      height: 30vh;
-      width: 20vw;
-    }
+  .project-tile-image {
+    border: 1px solid $medium-gray;
+    height: 30vh;
+    width: 20vw;
+  }
 
-    @media (max-width: $bp-phone) {
-      .project-tile-name {
-        font-size: $medium-header-mobile;
-      }
+  @media (max-width: $bp-phone) {
+    .project-tile-name {
+      font-size: $medium-header-mobile;
     }
+  }
 }

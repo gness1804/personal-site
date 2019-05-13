@@ -70,7 +70,7 @@
   margin: 0 20vw; }
   #landing .splash-image {
     border-radius: 2rem;
-    height: 35rem;
+    height: 23rem;
     margin-top: 60px;
     width: 100%; }
   #landing .landing-splash-text-container {
@@ -84,6 +84,9 @@
       font-family: "Dancing Script", cursive;
       font-size: 30px; }
 
+@media (min-width: 1100px) {
+  #landing .splash-image {
+    height: 36rem; } }
 @media (max-width: 550px) {
   #landing .splash-image {
     height: 20rem; } }
@@ -256,6 +259,14 @@
     font-style: italic;
     margin-top: 40px; }
 
+.not-found {
+  margin: 0 20vw;
+  text-align: center; }
+  .not-found .not-found-heading {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 60px auto 30px; }
+
 * {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif; }
@@ -277,7 +288,7 @@ a {
 
 .link {
   font-size: 16px;
-  color: #12A2DD; }
+  color: #12a2dd; }
   .link:hover {
     color: #00a3e0; }
 

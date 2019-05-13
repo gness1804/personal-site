@@ -26,9 +26,7 @@
 
 @media (max-width: $bp-small-desktop) {
   .writing {
-
     .book-container {
-
       .writing-book-cover-image {
         width: 60%;
       }
@@ -38,9 +36,7 @@
 
 @media (max-width: $bp-tablet) {
   .writing {
-
     .book-container {
-
       .writing-book-title {
         @include subheadingSmall;
       }
@@ -50,9 +46,7 @@
 
 @media (max-width: $bp-phone) {
   .writing {
-
     .book-container {
-
       .writing-book-cover-image {
         width: 80%;
       }

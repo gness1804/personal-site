@@ -1,24 +1,26 @@
-//      
+//
 //import { QuotesI } from '../types/interfaces/';
 
-const quotes            = [
+const quotes = [
   {
     body: 'Everything you want is on the other side of fear.',
     author: 'Jack Canfield',
   },
   {
-    body: 'Faith is taking the first step even when you can\'t see the whole staircase.',
+    body:
+      "Faith is taking the first step even when you can't see the whole staircase.",
     author: 'Dr. Martin Luther King, Jr.',
   },
   {
-    body: 'When the power of love overcomes the love of power the world will know peace.',
+    body:
+      'When the power of love overcomes the love of power the world will know peace.',
     author: 'Attributed to Jimi Hendrix',
   },
   {
     body: 'Everyone shines, given the right lighting.',
-    author: 'Susan Cain, author of \'Quiet: The Power of Introverts in a World that Can\'t Stop Talking\'',
+    author:
+      "Susan Cain, author of 'Quiet: The Power of Introverts in a World that Can't Stop Talking'",
   },
 ];
 
-module.exports =  quotes;
-
+module.exports = quotes;

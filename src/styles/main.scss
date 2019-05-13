@@ -13,6 +13,7 @@
 @import 'medium.scss';
 @import 'article.scss';
 @import 'introversion.scss';
+@import 'notfound.scss';
 
 * {
   box-sizing: border-box;
@@ -41,10 +42,10 @@ a {
 
 .link {
   font-size: 16px;
-  color: #12A2DD;
+  color: #12a2dd;
 
   &:hover {
-    color:$standard-blue-hover;
+    color: $standard-blue-hover;
   }
 }
 

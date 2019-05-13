@@ -14,7 +14,8 @@ describe('truncate', () => {
   });
 
   it('should return truncated text if the word length is more than 50', () => {
-    const longTextTruncated = 'MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the Sunlight Congress API, the application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by...';
+    const longTextTruncated =
+      'MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the Sunlight Congress API, the application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by...';
     const text = longProject.description;
     assert.strictEqual(App(text), longTextTruncated);
   });
