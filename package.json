@@ -12,8 +12,11 @@
     "remove-imports": "bash src/scripts/remove-imports.sh",
     "clean": "npm cache verify",
     "prettier": "prettier --write src/**/*.vue src/**/*.js test/**/*.js",
+    "prettier:check": "prettier --check src/**/*.vue src/**/*.js test/**/*.js",
     "now-dev": "vue-cli-service serve  --port=$PORT",
-    "now-build": "vue-cli-service build"
+    "now-build": "vue-cli-service build",
+    "deploy": "now",
+    "deploy:debug": "now -d"
   },
   "dependencies": {
     "pug": "^2.0.3",
