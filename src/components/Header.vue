@@ -15,32 +15,31 @@
 
 <script>
 import HeaderLinks from './HeaderLinks.vue';
-import { HeaderI } from '../types/interfaces';
 
 export default {
   name: 'Header',
   components: {
     HeaderLinks,
   },
-  data(): HeaderI {
+  data() {
     return {
       name: 'Graham Nessler',
     };
   },
   methods: {
-    openEmail: function(): void {
+    openEmail: function() {
       window.open('mailto:gness1804@gmail.com');
     },
-    openGithub: function(): void {
+    openGithub: function() {
       window.open('https://github.com/gness1804/');
     },
-    openLinkedIn: function(): void {
+    openLinkedIn: function() {
       window.open('https://www.linkedin.com/in/gness1804');
     },
-    openMedium: function(): void {
+    openMedium: function() {
       window.open('https://medium.com/@gness1804/');
     },
-    openTwitter: function(): void {
+    openTwitter: function() {
       window.open('https://twitter.com/gness1804/');
     },
   },

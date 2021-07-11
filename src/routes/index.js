@@ -3,7 +3,6 @@ import Vue from 'vue';
 import Landing from '../components/Landing.vue';
 import Code from '../components/Code.vue';
 import Writing from '../components/Writing.vue';
-import Introversion from '../components/Introversion.vue';
 import NotFound from '../components/NotFound.vue';
 
 Vue.use(VueRouter);
@@ -20,10 +19,6 @@ const routes = [
   {
     path: '/writing',
     component: Writing,
-  },
-  {
-    path: '/introversion',
-    component: Introversion,
   },
   {
     path: '*',

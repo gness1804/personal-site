@@ -11,20 +11,19 @@
 // @flow
 import ProjectTile from './ProjectTile.vue';
 import projects from '../helpers/projects';
-import { CodeI } from '../types/interfaces/';
 
 export default {
   name: 'Code',
   components: {
     ProjectTile,
   },
-  data(): CodeI {
+  data() {
     return {
       projects,
     };
   },
   methods: {
-    openGithub: function(): void {
+    openGithub: function() {
       window.open('https://github.com/gness1804/');
     },
   },

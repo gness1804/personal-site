@@ -1,9 +1,5 @@
-// @flow
-
-import { TruncateI } from '../types/interfaces';
-
-const truncate: TruncateI = text => {
-  const words: string[] = text.split(' ');
+const truncate = (text) => {
+  const words = text.split(' ');
   const maxWordLen: number = 50;
   if (words.length <= maxWordLen) {
     return text;
